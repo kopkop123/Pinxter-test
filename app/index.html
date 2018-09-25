@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <section class="blank">
+            <div class="blank__box">
+                <h2 class="blank__description-title">Важно помнить:</h2>
+
+                <p class="blank__description">
+                    Равным образом рамки и место обучения кадров представляет собой интересный эксперимент проверки соответствующий условий активизации. С другой стороны рамки и место обучения кадров представляет собой интересный эксперимент проверки систем массового участия. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что укрепление и развитие структуры требуют от нас анализа систем массового участия.
+                    С другой стороны начало повседневной работы по формированию позиции играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности позволяет оценить значение форм развития. Товарищи! дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание дальнейших направлений развития. С другой стороны дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании форм развития. Задача организации, в особенности же консультация с широким активом в значительной степени обуславливает создание систем массового участия. Товарищи! рамки и место обучения кадров способствует подготовки и реализации соответствующий условий активизации.
+                </p>
+            </div>
+
+            <div class="blank__form">
+                <h1 class="blank__title">Заполните форму</h1>
+
+                <form class="form">
+                    <div class="form__info">Общая информация</div>
+
+                    <div class="form__row">
+                        <div class="form__cell">
+                            <label class="form__group">
+                                <span class="form__label">Фамилия</span>
+                                <input type="text" class="form__input" required data-type="progress">
+                            </label>
+                        </div>
+
+                        <div class="form__cell">
+                            <label class="form__group">
+                                <span class="form__label">Имя</span>
+                                <input type="text" class="form__input" required data-type="progress">
+                            </label>
+                        </div>
+
+                        <div class="form__cell">
+                            <label class="form__group">
+                                <span class="form__label">Отчество</span>
+                                <input type="text" class="form__input" required data-type="progress">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="form__cell">
+                            <div class="form__group">
+                                <span class="form__label">Меняли фамилию?</span>
+                                <div class="form__radio-container">
+                                    <label class="form__radio-label">
+                                        <input type="radio" name="lastname-change" class="form__radio"><span class="form__radio-option"><span>Да</span></span>
+                                    </label>
+
+                                    <label class="form__radio-label">
+                                        <input type="radio" name="lastname-change" class="form__radio" checked><span class="form__radio-option"><span>Нет</span></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form__cell">
+                            <div class="form__group">
+                                <span class="form__label">Пол</span>
+                                <div class="form__radio-container">
+                                    <label class="form__radio-label">
+                                        <input type="radio" name="gender" class="form__radio" checked><span class="form__radio-option"><span>Муж</span></span>
+                                    </label>
+
+                                    <label class="form__radio-label">
+                                        <input type="radio" name="gender" class="form__radio"><span class="form__radio-option"><span>Жен</span></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form__cell">
+                            <label class="form__group">
+                                <span class="form__label">Семейное положение</span>
+                                <select class="form__select">
+                                    <option>Женат / Замужем</option>
+                                    <option>Не женат / Не замужем</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="progress">
+                            <div class="progress__bar" id="progress"></div>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <div class="form__cell">
+                            <input type="number" class="form__input form__input--percent" min="0" max="100" id="percent-input">
+                        </div>
+
+                        <div class="form__cell">
+                            <button type="button" class="button" id="percent-button">Применить</button>
+                        </div>
+
+                        <div class="form__cell form__cell--progress">
+                            <div class="progress progress--blue">
+                                <div class="progress__bar" id="progress-percent"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form__row">
+                        <button type="button" class="button button--big" id="resume">Резюме</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
